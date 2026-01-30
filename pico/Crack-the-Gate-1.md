@@ -5,6 +5,7 @@ Crack the Gate 1
 ログイン画面のHTMLに残ったコメントからバイパス用ヘッダが判明。ヘッダを付けてログインAPIへ送るとフラグが返る。
 
 # 確認
+- ログイン用のメールアドレスが与えられる「player@picoctf.org」
 - ページ表示はメール/パスワード/ログインボタンのみ
 - 適当なPWで送信すると「Invalid credentials」
 
@@ -15,7 +16,7 @@ Crack the Gate 1
 4) 返却レスポンスの `flag` を取得
 
 # 参考
-`source.html` 内コメント:
+HTML内のコメント:
 ```
 <!-- ABGR: Wnpx - grzcbenel olcnff: hfr urnqre "K-Qri-Npprff: lrf" -->
 ```
